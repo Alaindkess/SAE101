@@ -1,0 +1,54 @@
+/**************************************************/
+/*
+/*          Pour les grand ecrans >992px
+/*          ordi portables et plus grands
+/**************************************************/
+@media screen and (min-width:992px) {
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0px 30px;
+    color: white;
+    background-color: rgba(13, 0, 202, 0.452);
+
+    
+}
+
+#titre{
+    font-size: 40px;
+
+}
+
+
+img{
+    size: 60px;
+}
+
+}
+
+/**************************************************/
+/*
+/*          Pour les ecrans moyens 768<  <992px
+/*          petits ordi portables et tablettes
+/**************************************************/
+@media screen and (min-width:768px) and (max-width:992px) {
+
+}
+
+
+
+
+
+/**************************************************/
+/*
+/*          Pour les telephones <768
+/*         
+/**************************************************/
+@media screen and (max-width:768px) {
+
+}

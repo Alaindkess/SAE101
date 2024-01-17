@@ -1,0 +1,54 @@
+/**************************************************/
+/*
+/*          Pour les grand ecrans >992px
+/*          ordi portables et plus grands
+/**************************************************/
+@media screen and (min-width:992px) {
+
+
+    body{ 
+        display:flexbox;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(162, 161, 235);
+        height: 100px;
+    }
+    
+}
+    
+/**************************************************/
+/*
+/*          Pour les ecrans moyens 768<  <992px
+/*          petits ordi portables et tablettes
+/**************************************************/
+@media screen and (min-width:768px) and (max-width:992px) {
+    
+
+
+    body{
+        display: block;
+        color: blue;
+        background-color: red;
+        height: 100px;
+    }
+}
+    
+    
+    
+    
+    
+/**************************************************/
+/*
+/*          Pour les telephones <768
+/*         
+/**************************************************/
+@media screen and (max-width:768px) {
+
+    body{
+        display: block;
+        color: blue;
+        background-color: rgb(0, 255, 64);
+        height: 100px;
+    }
+
+}
